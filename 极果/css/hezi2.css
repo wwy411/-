@@ -1,0 +1,119 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.box{
+	width: 100%;
+}
+li{
+	list-style: none;
+	/*float: left;*/
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/*头部*/
+header{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+header>ul>li{
+	float: left;
+}
+header ul{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	line-height: 60px;
+}
+header>.ul1{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 400px;
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+
+/*中间2*/
+.mfsy{width: 100%;display: flex;justify-content: space-around;padding-bottom: 30px;}
+.mfsy li{list-style: none;}
+.mfsy_left{width: 170px;height: 320px; background-color: gainsboro;margin-top: 30px;border-radius: 10px;}
+.mfsy_right{background-color: gainsboro;margin-top: 30px;margin-left: -90px;padding-bottom: 30px;border-radius: 10px;}
+.lt1{font-size: 22px;text-align: center;margin-top: 20px;}.lt1 hr{width: 130px;margin: auto;}
+.lt2{margin-top: 30px;margin-left: 20px;}.lt2 li{font-size: 14px;color: gray;margin-left: 20px;}
+.rt1{font-size: 22px;margin-top: 20px;margin-left: 50px;}.rt1 hr{width: 820px;background-color: gray;}
+.rt2{margin-left: 50px;}.rt2 li{font-size: 14px;color: gray;margin-top: 10px;}
+.rt2 h4{margin-top: 30px;}
+/*中3*/
+.ul2>li{
+	width:23%;
+	font-weight: 100;
+	margin-bottom: 10px;
+	
+}
+.ul2>li>.p1{
+	font-size: 14px;
+	font-weight: 500;
+}
+/*底部*/
+.bottom{
+	position: relative;
+	width: 100%;
+	background-color: #505050;
+}
+.bottom1{
+	padding-top: 30px;
+	width: 1054px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.bottom1 ul{
+	width:140px;
+	
+}
+.bottom1 ul>li:nth-child(1){
+	color: white;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+.bottom1 ul>li{
+	color: gray;
+	margin-bottom: 10px;
+}
+.zhong1 ul li{
+	float: left;
+	padding: 15px;
+	margin-left: 30px;
+	
+}
+.zhong1 ul>.lii1{
+	border-bottom: 2px solid red;
+}
+/*登录*/
+.error {
+	clear: both;
+	display: block;
+	color: red;
+	padding-left: 90px;
+	padding-bottom: 5px;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+}
+ 
+.errorInput {
+	border: 1px solid red !important;
+}
+ 
+.correctInput {
+	border: 1px solid green !important;
+}

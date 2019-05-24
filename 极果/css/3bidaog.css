@@ -1,0 +1,163 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.box{
+	width: 100%;
+}
+li{
+	list-style: none;
+	/*float: left;*/
+	
+}
+li:hover{
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/*头部*/
+header{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+header>ul>li{
+	float: left;
+}
+header ul{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	line-height: 60px;
+}
+header>.ul1{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 400px;
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+/*中间*/
+.zhong{
+	width: 100%;
+	background-color: #E7E6E6;
+	border-top: 2px solid gray;
+}
+.left1-p{
+	width: 1200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: gray;
+	margin: auto;
+}
+.zhong1{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.left1{
+	background-color: white;
+	width: 70%;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*margin: auto;*/
+	
+	
+}
+.right1{
+	width: 300px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	
+	
+	
+}
+.right11>img{
+	position: absolute;
+	top: 15px;
+	left: 60px;
+}
+.right1>.right11{
+	position: relative;
+	height: 100px;
+	line-height: 100px;
+background-color: white;
+width: 48%;	
+text-align: center;
+}
+.left1>img{
+	margin-left: 95px;
+}
+.left1>p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	width: 640px;
+}
+.left1>.p1{
+	width: 640px;
+		font-size: 14px;
+	color: gray;
+	display: flex;
+	justify-content: space-between;
+}
+.left1>.p2{
+	font-size: 18px;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+}
+.left1>.p3{
+	width: 640px;
+	margin: auto;
+	/*margin-top: 5px;
+	margin-left: 5px;*/
+	padding-top: 7px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	font-weight: 100;
+	
+}
+.right1{
+	border:  1px solid gainsboro;
+}
+
+/*底部*/
+.bottom{
+	position: relative;
+	width: 100%;
+	background-color: #505050;
+}
+.bottom1{
+	padding-top: 30px;
+	width: 1054px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.bottom1 ul{
+	width:140px;
+	
+}
+.bottom1 ul>li:nth-child(1){
+	color: white;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+.bottom1 ul>li{
+	color: gray;
+	margin-bottom: 10px;
+}
+
+/*加载*/
+#jiazai{
+	display:none;
+}

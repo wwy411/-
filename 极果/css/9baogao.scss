@@ -1,0 +1,80 @@
+@mixin li{
+    list-style: none;
+}
+@mixin displayju{
+    display: flex;
+    justify-content: space-between;
+}
+$width:1200px;
+
+.center2{
+    padding-top: 30px;
+     width: $width;
+        margin: auto;
+        @include displayju;
+     .center2left{
+         width: 70%;
+        
+            .p1{
+                font-size: 18px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 3px;
+              
+            }
+            ul{
+                li{
+                    margin-bottom: 15px;
+                        margin-top: 15px;
+                    .div1{
+                        background-color:#F2EEEB;
+                        padding-bottom: 10px; 
+                    }
+                    .div2{
+                        width:100%;
+                        color: gray;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        height: 50px;
+                        line-height: 50px;
+                        text-align: center;
+                        border: 1px solid gray;
+                        margin: auto;
+                    }
+                }
+                li:nth-child(1){
+                     margin-top: 0px;
+                }
+            }
+     }
+     .center2right{
+         width: 22.5%;
+        
+        
+         .lep{
+             border-left: 2px solid red;
+             color: gray;
+             font-size: 16px;
+              font-weight: 600;
+              padding-left: 10px;
+         }
+         .pp3{
+             color: red;
+             font-size: 30px;
+             margin-bottom: 20px;
+            
+         }
+         input{
+             width: 253px;
+             height: 60px;
+             background-color: red;
+             border: 0px;
+             color: white;
+             font-size: 16px;
+         }
+         p{
+             color: gray;
+             margin-bottom: 20px;
+         }
+     }
+}

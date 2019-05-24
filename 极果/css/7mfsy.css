@@ -1,0 +1,87 @@
+.center1 {
+  width: 100%;
+  background-color: gainsboro;
+  padding-bottom: 10px; }
+  .center1 .center11 {
+    width: 1200px;
+    margin: auto; }
+    .center1 .center11 ul {
+      width: 1200px;
+      display: flex;
+      justify-content: space-between; }
+      .center1 .center11 ul li {
+        width: 48px; }
+        .center1 .center11 ul li img {
+          width: 37px;
+          height: 37px;
+          margin-bottom: 7px; }
+        .center1 .center11 ul li a {
+          color: gray; }
+      .center1 .center11 ul li:nth-child(1) {
+        border-left: 2px solid red;
+        padding-left: 10px;
+        height: 45px; }
+        .center1 .center11 ul li:nth-child(1) a {
+          font-size: 18px;
+          font-weight: 600; }
+
+.center2 {
+  padding-top: 30px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; }
+  .center2 .center2left {
+    width: 60%; }
+    .center2 .center2left .lep {
+      border-left: 2px solid red;
+      color: gray;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      padding-left: 10px; }
+    .center2 .center2left a {
+      color: gray;
+      margin-bottom: 10px;
+      font-size: 14px; }
+    .center2 .center2left img {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .center2 .center2left p {
+      margin-bottom: 30px;
+      font-size: 14px; }
+      .center2 .center2left p span:nth-child(1) {
+        font-weight: 900; }
+    .center2 .center2left .pp1 {
+      color: blue;
+      font-weight: 600;
+      font-size: 15px;
+      margin: 0px; }
+    .center2 .center2left .pp2 {
+      margin: 0px; }
+    .center2 .center2left .pp2:nth-last-child(1) {
+      padding-bottom: 20px; }
+  .center2 .center2right {
+    width: 22.5%; }
+    .center2 .center2right .lep {
+      border-left: 2px solid red;
+      color: gray;
+      font-size: 16px;
+      font-weight: 600;
+      padding-left: 10px; }
+    .center2 .center2right .pp3 {
+      color: red;
+      font-size: 30px;
+      margin-bottom: 20px; }
+    .center2 .center2right input {
+      width: 253px;
+      height: 60px;
+      background-color: red;
+      border: 0px;
+      color: white;
+      font-size: 16px; }
+    .center2 .center2right p {
+      color: gray;
+      margin-bottom: 20px; }
+
+/*# sourceMappingURL=7mfsy.css.map */

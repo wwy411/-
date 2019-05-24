@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;}
+/*登陆弹窗*/
+.dlu1{width: 670px;background-color: white;margin: auto;position: fixed;margin-left: 320px;opacity: 0.9;display: flex;justify-content: space-around;border-bottom: 5px solid red;padding-bottom: 20px;margin-top: 100px;z-index: 80;}
+.dlu1 li{list-style: none;}.dlu1 h3{color: gray;font-size: 16px;line-height: 30px;cursor: pointer;}
+.dlu1_left{margin-left: 20px;margin-top: 20px;}.dlu1_left li{margin-bottom: 20px;cursor: pointer;}
+.sjh{display: flex;border: 1px solid gray;margin-top: 10px;line-height: 30px;}
+.sjh input{width: 230px;}.pwd input{width: 230px;}
+.pwd{display: flex;border: 1px solid gray;line-height: 30px;}
+.zidong{display: flex;justify-content: space-around;margin-left: -5px;}
+.zidong span{width: 90px;height: 30px;line-height: 30px; background-color: red;border-radius: 20px;text-align: center;margin-left: 30px;}
+.zidong span a{color: white;}.dlu1_left_down a{color: black;}
+.dlu1_left_down{display: flex;justify-content: space-around;}
+.zhong hr{width: 1px;height: 230px;background-color: gainsboro;margin-top: 20px;}
+.dlu1_right{padding-right: 20px;}.dlu1_right li{cursor: pointer;}
+.dlu1_right_x{font-size: 22px;float: right;margin-right: -50px;}
+.dlu1_right_h{padding-top: 20px;}
+.dlu1_v_img img{width: 130px;height: 130px;margin-top: 10px;}
+.dlu1_right_down{display: flex;justify-content: space-around;margin-top: 10px;}
+.dlu1_right_down hr{width: 1px;height: 40px;background-color: gainsboro;margin-left: 10px;}
+.let{display: flex;justify-content: center;}
+.let p{margin-top: 10px;}.let img{width: 35px;height: 35px;}
+/*试用跳转*/
+.sysj1{cursor: pointer;}

@@ -1,0 +1,100 @@
+.zhong4{
+	background-color: #E7E6E6;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-top: 2px solid gray;
+}
+
+#zhong4-11{
+	width: 80%;
+	margin: auto;
+	border-radius: 5px;
+	background-color: white;
+	/*height: 300px;*/
+	text-align: center;
+	padding-bottom: 30px;
+	
+}
+.zhong4-1{
+	height: 20px;
+	width: 80px;
+	line-height: 20px;
+	border-left: 3px solid red ;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 30px;
+	
+}
+
+
+/*验证*/
+.reg-form{
+	margin: auto;
+	width:40%;
+	text-align: center;
+}
+.reg-input{
+	height:36px;
+	line-height:36px;
+	margin-top:18px;
+	
+}
+input{
+	background-color: gainsboro;
+	border-radius: 5px;
+	border: 0px;
+}
+.yzhengma {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.yzhengma input{
+	width: 183px;
+	height:36px;
+	line-height:36px;
+	margin-top:18px;
+	
+}
+
+.reg-input input{
+	float:left;
+	width:280px;
+	height:18px;
+	line-height:18px;
+	font-size:14px;
+	padding:8px;
+	/*border:1px #a8d2e7 solid;*/
+}
+
+#submit{
+	width:300px;
+	height:44px;
+	line-height:44px;
+	font-size:14px;
+	padding:8px;
+	text-align:center;
+	color:#fff;
+	border:0 none;
+	background:#b6010e;
+	font-family: "Microsoft YaHei",SimHei,"微软雅黑","黑体";
+	cursor:pointer;
+}
+.submit-box{
+	margin-top: 10px;
+	width: 300px;
+	margin-bottom: 100px;
+}
+/**获得焦点&&无效&&有效**/
+
+/*input:focus{
+	border:4px #ffc000 solid;
+}
+input:invalid{
+	border:1px red solid;
+}
+
+input:valid{
+	border:1px #35cc00 solid;
+}*/
